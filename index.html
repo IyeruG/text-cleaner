@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpiador y Extractor de Texto Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Limpiador de Texto Local</h1>
+            <p>Limpia espacios, saltos de línea y extrae datos en segundos sin salir de tu navegador.</p>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <label for="inputText">Pega tu texto aquí:</label>
+                <textarea id="inputText" placeholder="Escribe o pega texto desordenado aquí..."></textarea>
+            </div>
+
+            <div class="actions">
+                <button id="btnSpaces">Eliminar Espacios Dobles</button>
+                <button id="btnLines">Quitar Líneas Vacías</button>
+                <button id="btnEmails">Extraer Correos</button>
+                <button id="btnClear" class="secondary">Limpiar Todo</button>
+            </div>
+
+            <div class="output-group">
+                <label for="outputText">Resultado:</label>
+                <textarea id="outputText" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+                <button id="btnCopy" class="primary">Copiar Resultado</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Hecho con 💡 - <a href="https://gumroad.com" target="_blank">Apoya este proyecto</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
